@@ -1,0 +1,56 @@
+<svg width="540" height="240" viewBox="0 0 540 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">project-one</title>
+<desc id="desc">Replace this with your project name and one-sentence description.</desc>
+
+
+<defs>
+  <radialGradient id="bg" cx="50%" cy="22%" r="80%">
+    <stop offset="0%" stop-color="#172554"/>
+    <stop offset="56%" stop-color="#081225"/>
+    <stop offset="100%" stop-color="#020617"/>
+  </radialGradient>
+  <linearGradient id="beam" x1="0" x2="1">
+    <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0"/>
+    <stop offset="52%" stop-color="#7dd3fc" stop-opacity="0.95"/>
+    <stop offset="100%" stop-color="#f97316" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="routeA" x1="0" x2="1">
+    <stop offset="0%" stop-color="#7dd3fc"/>
+    <stop offset="50%" stop-color="#f97316"/>
+    <stop offset="100%" stop-color="#a78bfa"/>
+  </linearGradient>
+  <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+    <path d="M34 0H0V34" stroke="#38bdf8" stroke-opacity="0.055" stroke-width="1" fill="none"/>
+  </pattern>
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="4"/>
+    <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    .sans { font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .scan { animation: scan 6s ease-in-out infinite; }
+    .dash { stroke-dasharray: 14 18; animation: dash 16s linear infinite; }
+    .pulse { animation: pulse 3s ease-in-out infinite; transform-origin:center; }
+    .float { animation: float 8s ease-in-out infinite; }
+    @keyframes dash { to { stroke-dashoffset: -540; } }
+    @keyframes scan { 0%,100% { transform: translateX(-340px); opacity: .08; } 50% { transform: translateX(640px); opacity: .22; } }
+    @keyframes pulse { 0%,100% { opacity: .40; } 50% { opacity: 1; } }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+  </style>
+</defs>
+
+<rect width="540" height="240" rx="26" fill="url(#bg)"/>
+<rect width="540" height="240" rx="26" fill="url(#grid)" opacity=".62"/>
+<rect x="1" y="1" width="538" height="238" rx="25" stroke="#7dd3fc" stroke-opacity=".28"/>
+<text x="32" y="44" class="mono" fill="#7dd3fc" font-size="14" letter-spacing="3">RESEARCH</text>
+<text x="32" y="100" class="sans" fill="#f8fafc" font-size="28" font-weight="850">project-one</text>
+<text x="32" y="136" class="mono" fill="#dae5f3" font-size="15">Replace this with your project name</text>
+<text x="32" y="160" class="mono" fill="#dae5f3" font-size="15">and one-sentence description.</text>
+<path class="dash" filter="url(#glow)" d="M32 198 H212 C254 198 250 176 294 176 H504" stroke="url(#beam)" stroke-width="2.4" stroke-linecap="round"/>
+<circle class="pulse" cx="504" cy="176" r="5" fill="#7dd3fc"/>
+<g class="pulse" transform="translate(458 38)">
+  <rect width="36" height="36" rx="10" fill="#091324" stroke="#7dd3fc" stroke-opacity=".42"/>
+  <text x="18" y="23" text-anchor="middle" class="sans" fill="#7dd3fc" font-size="17" font-weight="700">◌</text>
+</g>
+</svg>

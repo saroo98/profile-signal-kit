@@ -1,0 +1,56 @@
+<svg width="1120" height="130" viewBox="0 0 1120 130" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">Selected work</title>
+<desc id="desc">showcase your best repositories with visual cards</desc>
+
+
+<defs>
+  <radialGradient id="bg" cx="50%" cy="22%" r="80%">
+    <stop offset="0%" stop-color="#172554"/>
+    <stop offset="56%" stop-color="#0b1222"/>
+    <stop offset="100%" stop-color="#020617"/>
+  </radialGradient>
+  <linearGradient id="beam" x1="0" x2="1">
+    <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0"/>
+    <stop offset="52%" stop-color="#7dd3fc" stop-opacity="0.95"/>
+    <stop offset="100%" stop-color="#f97316" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="routeA" x1="0" x2="1">
+    <stop offset="0%" stop-color="#7dd3fc"/>
+    <stop offset="50%" stop-color="#f97316"/>
+    <stop offset="100%" stop-color="#a3e635"/>
+  </linearGradient>
+  <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+    <path d="M34 0H0V34" stroke="#38bdf8" stroke-opacity="0.055" stroke-width="1" fill="none"/>
+  </pattern>
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="4"/>
+    <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    .sans { font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .scan { animation: scan 6s ease-in-out infinite; }
+    .dash { stroke-dasharray: 14 18; animation: dash 16s linear infinite; }
+    .pulse { animation: pulse 3s ease-in-out infinite; transform-origin:center; }
+    .float { animation: float 8s ease-in-out infinite; }
+    @keyframes dash { to { stroke-dashoffset: -540; } }
+    @keyframes scan { 0%,100% { transform: translateX(-340px); opacity: .08; } 50% { transform: translateX(640px); opacity: .22; } }
+    @keyframes pulse { 0%,100% { opacity: .40; } 50% { opacity: 1; } }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+  </style>
+</defs>
+
+<rect width="1120" height="130" rx="24" fill="url(#bg)"/>
+<rect width="1120" height="130" rx="24" fill="url(#grid)" opacity=".58"/>
+<rect x="1" y="1" width="1118" height="128" rx="23" stroke="#7dd3fc" stroke-opacity=".24"/>
+<path class="dash" filter="url(#glow)" d="M450 60 H620 C664 60 680 38 720 38 H820 C860 38 878 82 916 82 H1068" stroke="url(#routeA)" stroke-width="2.4" stroke-linecap="round"/>
+<circle class="pulse" cx="630" cy="60" r="5" fill="#7dd3fc"/>
+<circle class="pulse" cx="832" cy="38" r="5" fill="#a78bfa"/>
+<circle class="pulse" cx="924" cy="82" r="5" fill="#f97316"/>
+<text x="54" y="62" class="sans" fill="#f8fafc" font-size="26" font-weight="850">Selected work</text>
+<text x="54" y="92" class="mono" fill="#a7b7cc" font-size="16">showcase your best repositories with visual cards</text>
+<g class="pulse" transform="translate(992 36)">
+  <circle cx="28" cy="28" r="18" stroke="#7dd3fc" stroke-opacity=".34"/>
+  <circle cx="28" cy="28" r="6" fill="#a3e635"/>
+</g>
+</svg>

@@ -1,0 +1,25 @@
+{
+  "asset_count": 20,
+  "assets": [
+    "badge-strip.svg",
+    "card-project-template-a.svg",
+    "card-project-template-b.svg",
+    "card-project-template-c.svg",
+    "card-project-template-d.svg",
+    "divider-calm.svg",
+    "divider-circuit.svg",
+    "divider-pulse.svg",
+    "footer-signal.svg",
+    "frame-desk-loop-template.svg",
+    "frame-portrait-template.svg",
+    "panel-current-focus-template.svg",
+    "panel-personal-signal-template.svg",
+    "panel-working-style-template.svg",
+    "profile-hero-template.svg",
+    "repo-hero.svg",
+    "section-customization.svg",
+    "section-installation.svg",
+    "section-selected-work.svg",
+    "social-preview.svg"
+  ]
+}
