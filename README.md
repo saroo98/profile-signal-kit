@@ -16,7 +16,7 @@ Repository page strategy:
   <a href="#quick-start">Quick start</a> ·
   <a href="#what-you-get">What you get</a> ·
   <a href="#template-files">Template files</a> ·
-  <a href="#seo-notes">SEO notes</a>
+  <a href="#who-this-is-for">Who this is for</a>
 </p>
 
 # Profile Signal Kit
@@ -128,43 +128,15 @@ Tiny footer signal
 - Use the SVG panels to preserve a stable look in GitHub light mode.
 - Keep motion subtle: scan, pulse, dashed routes, soft glows.
 
-## SEO notes
+## Who this is for
 
-A GitHub repository is not a full marketing website, but you can still improve discoverability.
+This kit is for developers who want a GitHub profile README template that feels closer to a polished developer portfolio README than a default badge wall.
 
-Use this repository metadata:
+Use it when you want an animated GitHub profile with a strong SVG README banner, clean project cards, and a visual system that still works inside GitHub's real Markdown renderer. It is built for people who care about GitHub profile design but do not want to fight GitHub light mode, write unsupported CSS, or depend on fragile layout tricks.
 
-**Repository name suggestion**
-- `profile-signal-kit`
-- `animated-github-profile-readme-template`
-- `github-profile-readme-svg-template`
+If you are building a beautiful GitHub profile README, an aesthetic GitHub profile, or a cool GitHub profile README for your public work, this starter gives you a practical base: copy the template, edit the SVG text, replace the project links, and keep the page focused on identity, selected work, current focus, working style, and profile signals.
 
-**Repository description**
-- `Animated GitHub Profile README template with dark SVG banners, cards, dividers, and starter files.`
-
-**Suggested topics**
-- `github-profile-readme`
-- `github-profile-template`
-- `readme-template`
-- `animated-svg`
-- `svg-banner`
-- `developer-portfolio`
-- `github-readme`
-- `profile-readme`
-- `profile-design`
-- `personal-branding`
-- `open-source-design`
-
-The README also naturally includes the phrases people are likely to search:
-- GitHub profile README template
-- animated GitHub profile
-- beautiful GitHub profile README
-- aesthetic GitHub profile
-- cool GitHub profile README
-- SVG README banner
-- GitHub profile design
-- developer portfolio README
-- profile README starter
+Repository-owner metadata, topic suggestions, social preview guidance, and search/discoverability notes live in `docs/SEO-CHECKLIST.md` and `docs/REPOSITORY-METADATA.md`.
 
 ## License
 
